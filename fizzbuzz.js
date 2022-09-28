@@ -3,9 +3,16 @@
 // Here, we create our main function.
 function fizzbuzz() {
     
-    console.log('Welcome to FizzBuzz!');
+    for(var count = 0; count <=100; count ++){
+        if((count % 3)==0){
+            console.log(`Fizz`)
+        }
+        else if((count % 5) ==0){
+            console.log(`Buzz`)
+        } 
+    }
 
-    // Put your code here...
+  
 
     
 }
